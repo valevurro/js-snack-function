@@ -9,11 +9,13 @@ function arrayName (names){
     const initials = [];
     
     for (let i = 0; i < names.length; i++){
+
         const name = names[i];
+
         initials.push(name.charAt(0).toUpperCase());
     }
 
-    return [initials];
+    return initials;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
