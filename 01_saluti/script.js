@@ -11,7 +11,7 @@ function saluto (userName){
 
 // Invoca la funzione qui e stampa il risultato in console
 
-let salutoNome = saluto(userName);
+const salutoNome = saluto(userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 
